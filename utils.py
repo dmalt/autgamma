@@ -21,6 +21,10 @@ def epoch_data(data, events, stim_ID, tmin=-.2, tmax=0.399):
     return X, y, st_id
 
 
+def filter_by_age(age_in_months):
+    ...
+
+
 class DownSampler(BaseEstimator, TransformerMixin):
     """Downsample transformer"""
 

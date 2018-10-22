@@ -1,0 +1,6 @@
+*.xlsx
+*.hdf5
+*.prof
+*.lprof
+tags
+*.npy
